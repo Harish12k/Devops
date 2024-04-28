@@ -11,4 +11,11 @@ Steps to Push the Code
 
  5 Push the code to github 
     syn : git push -u origin <main/master> (to the branch we need to push)
-Remove
+Remove the last commit 
+--------
+We have two types of commits 
+    1 Soft reset and hard reset
+        Soft  reset -- removes the commit from local repository and brings back the file to staging 
+            syn : git reset --soft HEAD~3 (HEAD~3 -- indicates the number of commits thats want to reset)
+        hard reset ---- removes the commit from local repository and even from staging.
+            syn : git reset --hard HEAD~3
