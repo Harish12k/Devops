@@ -1,9 +1,13 @@
 Steps to Push the Code 
- 1 creat repo in the Lap
- 2 Clone the Repo
- 3 Add the file to Temp
- 4 commit the changes
-    git committ "file-name"
- 5 Push the code to github
+ 1 Creat a repo folder in the Local laptop
+ 2 Start writing the code 
+ 3 we need to add the code 
+    syn : git add <file-name>
+    check the status 
+    syn : git status
+   
+ 4 we nedd to commit the changes to tem (staging)
+    syn : git commit -m "messasge that why we are commiting "
 
-Fianl push test 
+ 5 Push the code to github 
+    syn : git push -u origin <main/master> (to the branch we need to push)
