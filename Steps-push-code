@@ -11,3 +11,4 @@ Steps to Push the Code
 
  5 Push the code to github 
     syn : git push -u origin <main/master> (to the branch we need to push)
+Remove
