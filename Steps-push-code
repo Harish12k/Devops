@@ -19,3 +19,5 @@ We have two types of commits
             syn : git reset --soft HEAD~3 (HEAD~3 -- indicates the number of commits thats want to reset)
         hard reset ---- removes the commit from local repository and even from staging.
             syn : git reset --hard HEAD~3
+
+        Adding above steps to push the code 
